@@ -59,3 +59,7 @@ The field of COVID-19 detection using CNNs continues to evolve. Future developme
 - Integration with electronic health records (EHRs) for better patient management.
 
 - Ongoing research to expand the model's capabilities to detect new variants of the virus.
+
+## Conclusion
+In conclusion, we constructed a promising COVID-19 detection model using a Convolutional Neural Network (CNN) with X-ray datasets. Our CNN-based approach outperformed alternative machine learning techniques across multiple datasets. Despite limited data, the model demonstrated commendable accuracy.
+        Looking forward, we plan to enhance the model's generalization by expanding the dataset, fine-tuning hyperparameters, and exploring advanced techniques. We aim to assess its real-world integration into clinical workflows and its impact on medical diagnoses. Continuous updates will ensure its adaptability to evolving medical settings and improve COVID-19 detection.
