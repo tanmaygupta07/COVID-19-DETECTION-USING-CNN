@@ -10,18 +10,48 @@ This GitHub repository contains an implementation of a Convolutional Neural Netw
 COVID-19 is primarily diagnosed through Polymerase Chain Reaction (PCR) tests, which require specialized equipment, trained personnel, and often entail time-consuming processes. In contrast, CNNs offer a non-invasive and efficient approach for COVID-19 detection.
 
 
-## How it Works
-- **Data Collection**: To train a CNN for COVID-19 detection, a large dataset of chest X-ray images is collected. This dataset typically includes images from COVID-19 positive patients, patients with other respiratory conditions, and healthy individuals.
+## Technologies Used
 
-- **Pre-processing**: The collected images are pre-processed to ensure uniformity and quality. Pre-processing steps may include resizing, normalization, and noise reduction.
+- **Python**: The primary programming language used for the entire codebase.
 
-- **Architecture Selection**: A suitable CNN architecture is chosen for the task. Common choices include architectures like VGG, ResNet, or custom-designed networks tailored to medical image analysis.
+- **Keras**: A high-level neural networks API for building, training, and evaluating deep learning models.
 
-- **Model Training**: The selected CNN is trained on the dataset. During training, the network learns to extract relevant features from the X-ray images that are indicative of COVID-19 infection. The network adjusts its internal parameters through backpropagation and optimization algorithms to minimize prediction errors.
+- **NumPy**: A library for numerical computations, used for working with arrays and data manipulation.
 
-- **Validation and Testing**: The trained model is validated on a separate dataset to ensure its generalization capability. It is then tested on new, unseen X-ray images to assess its accuracy.
+- **Matplotlib**: A popular library for creating data visualizations and plotting graphs, used for displaying images, accuracy, and loss plots.
 
-- **Deployment**: Once the model demonstrates high accuracy in COVID-19 detection, it can be deployed for real-world use. This can be in a medical facility, a mobile app, or a web-based platform.
+- **PIL (Python Imaging Library)**: Used for image processing and manipulation, particularly for resizing and loading images.
+
+- **TensorFlow**: A machine learning framework for building and training neural networks.
+
+- **ImageDataGenerator**: Part of Keras, used for data augmentation and preprocessing of images for training.
+
+- **Seaborn**: A data visualization library that provides an enhanced interface for creating informative and attractive statistical graphics.
+
+- **scikit-learn (sklearn)**: A machine learning library used for evaluating the model's performance with metrics like confusion matrices and classification reports.
+
+- **os**: Python's built-in library for interacting with the operating system, used for file handling and directory operations.
+
+## Code Explanation
+
+The code includes the following main components:
+
+- **Data Preparation**: Loading and preprocessing chest X-ray images, including resizing and normalization.
+
+- **Model Architecture**: Defining a CNN model architecture with Conv2D layers, MaxPool2D layers, Dropout layers, and Dense layers.
+
+- **Model Training**: Compiling and training the model using a training dataset and evaluating it using a test dataset.
+
+- **Model Evaluation**: Visualizing training and validation accuracy and loss over epochs.
+
+- **Model Saving**: Saving the trained model as 'Model.h5'.
+
+- **Testing the Model**: Loading the saved model and using it for predictions on new images.
+
+- **Performance Metrics**: Calculating and displaying performance metrics, including classification reports and confusion matrices.
+
+- **Visualization**: Visualizing COVID-19 detection results on sample X-ray images.
+
 
 
 ## Key Features
