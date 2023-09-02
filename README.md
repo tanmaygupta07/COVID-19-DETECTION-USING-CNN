@@ -2,7 +2,7 @@
 The COVID-19 pandemic has emphasized the importance of rapid and accurate diagnostic tools. Convolutional Neural Networks (CNNs) have emerged as a powerful tool in the fight against COVID-19, providing the potential for automated and highly accurate detection of the disease from medical images, especially chest X-rays.
 
 
-## DESCRIPTION
+## Description
 This GitHub repository contains an implementation of a Convolutional Neural Network (CNN) model for detecting COVID-19 from chest X-ray images. The goal of this project is to provide a reliable and efficient tool for assisting in the diagnosis of COVID-19 cases, particularly in situations where access to PCR tests or medical experts is limited.
 
 
@@ -24,7 +24,7 @@ COVID-19 is primarily diagnosed through Polymerase Chain Reaction (PCR) tests, w
 - **Deployment**: Once the model demonstrates high accuracy in COVID-19 detection, it can be deployed for real-world use. This can be in a medical facility, a mobile app, or a web-based platform.
 
 
-## KEY FEATURES
+## Key Features
 - **CNN architecture**: The model utilizes a deep learning architecture based on convolutional neural networks, which have proven to be effective in image classification tasks.
 
 - **Data preprocessing**: The repository includes code for preprocessing chest X-ray images, including resizing, normalization, and augmentation techniques to enhance the performance and generalization of the model.
